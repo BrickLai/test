@@ -1,0 +1,59 @@
+Tools and automation
+Brick Lai
+
+Intro to CLI and basic commands
+
+CLI stands for Command Line Interface. It is a program that allows users to type text commands intstructing the computer to do specific tasks
+
+In other words, CLI (aka Bash, aka Terminal) is a 'Swiss army knife' for developers.
++ control of your system
++ more productive
++ You can play a hacker in a movie
+
+windows: Windows Shell / Windwos Terminal / Git Bash
+Mac and Linux: Terminal 
+
+* Listing files and directories
+
+> pwd   | print the current working directory
+> ls    | list all files and directories in the current working directories
+> ls -a | list all files and directories + hidden files
+> ls -l | list all files and directories + detail info about them: 
+          type permissions, owner, group, name, etc.
+> ls -R | list all files abd directories + files in sub-directories
+   
+Permission / Access
+
+    d: directory
+    rwx :read, write, execute - users
+    r-x: read, execute   -group
+    r-x: read, execute   -other
+    
+* Changing directories
+> cd [dir]   |  I change the directory to the specified directory
+> cd ..k     |  I return to the previous directory(move one level up)
+> cd /       |  move to the root directory
+> cd or cd~  |  move to  home direction
+
+* printing data
+
+> echo[content]          | print text to the terminal window
+> [var_name] = [value]   | create a new varable (use the $ when printing the value)
+> echo $var              | print the variable
+> unset [var_name]       | remove a variable
+
+& System info
+
+> uname -a  | print system name and kernel
+> date      | print current date and time
+> cal       | print current month's calendar
+> whoami    | print user name
+> man       | manual  
+    > man ls
+    > man mkdir
+
+Shortcuts
+> ctrl-c | stop current commands
+> ctrl-a | go to start of Line
+> ctrl-e | go to the end of Line
+> ctrl-r | search comands ???

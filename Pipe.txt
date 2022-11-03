@@ -1,0 +1,14 @@
+Tools and automation
+Brick Lai
+
+pipe
+
+ The pipe (|) is a command that lets you use two or more commands such that output of one command serves as input to the next
+
+ cat count.txt | less
+
+ Read a file, sort the data and print the unique elements
+ > cat count1.txt | sort | uniq
+
+ count the ocurrences of a word in a file
+ > grep -o -i 'lorem' lorem.txt

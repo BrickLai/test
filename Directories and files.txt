@@ -1,0 +1,27 @@
+Tools and automation
+Brick Lai
+
+Creating directories and files
+
+> mkdir    | create a new directory
+    > mkdir test
+    > mkdir test/moretests
+    > mkdir test1 test2 test3
+
+> rmdir or rm -d  |  delete an empty directory
+> rm -r    | remove a non-empty directory (remove all files recursively)
+
+> touch [file.format]  | create a new file
+
+> echo 'content' > file  | redirect the output to a file(overwrite the file)
+> echo 'content' >> file  | redirect the output to the end of file(append)
+
+> mv [current name] [new name] | rename a file
+> cat [file]  |   display the content of a file
+> tac [file]  |   display the content of a file in reverse order
+> less [file] |   browse through a text file
+> head [file] |   display the first ten lines of file
+> tail [file] |   display the last ten lines of file
+> tail -r     |   display the content of a file in a reverse order
+> wc [file]   |   list number of lines, words and characters in the file
+> sort [file] |   sort the content of a file

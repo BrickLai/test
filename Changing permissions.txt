@@ -1,0 +1,22 @@
+Tools and automation
+Brick Lai
+
+Changing permissions
+
+To change file and directory permissions, use the command 'chmod' (change mode). There are two basic ways of using chmod to change permissions : the symbolic method and the absolute form.
+
+
+Symbolic method
+
+ Access class           Operator                      Access type
+
+ u (user)               + (add access)                  r (read)
+ g (group)              - (remove access)               w (write)
+ o (other)              - (set exact access)            x (execute)
+ a (all)
+
+Absolute form
+
+ Read        4
+ Write       2
+ Execute     1

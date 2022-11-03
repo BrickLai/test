@@ -1,0 +1,34 @@
+Tools and automation
+Brick Lai
+
+Search and find
+
+> cat [file]
+
+Read content from multiple files
+> cat *.[extension]
+
+List all files and directories in subdirectories
+> find
+
+Find a file in a directories
+> find [path] -name [file]
+> find [path] -type f -name [file]
+
+Find a file in all subdirectories
+> find . -type f -name [file]
+
+Find and delete file(s) in all subdirectories
+> find . -type f -name '[file]' -print -delete
+
+Find and delete multiple empty directories, recursively
+> find . -type d -empty -print -delete
+
+Find content in a file
+> grep [content] [file]
+
+Find content in multiple files, recursively
+> grep [content] *.[extension] -r
+
+Find content in multiple files, recursively and ignoring the characters
+> grep [content] *.[extension] -r -i
